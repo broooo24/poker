@@ -1,10 +1,10 @@
 # poker
 
 **Run:**
-  1. Donwload the javascript file and the index.html, and open the html file.
+  - Donwload the javascript file and the index.html, and open the html file.
   
 **Game Logic:**
-  1. You can play with 3 bot players, every player start with 500 money. 
+  - You can play with 3 bot players, every player start with 500 money. 
   
 **Implemented:**
   Every player got card
