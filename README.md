@@ -11,6 +11,7 @@
   - Flop, turn river has been shown.
   - Calculating cards value(pairs, three of a kind poker, straight, full house etc.)
   - preflop action(bots are raising, calling or flopping based on the value of their cards.)
+  
 **Missing:**
   - flop, turn, river action
   - play until just only one left
