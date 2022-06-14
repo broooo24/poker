@@ -7,30 +7,51 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="firstCard"></h1>
-    <h1 id="secondCard"></h1>
-    <p id ="myMoney"></p>
-    <br>
-    <h1 id="thirdCard"></h1>
-    <h1 id="fourthCard"></h1>
-    <p id="firstOpponentMoney"></p>
-    <br>
-    <h1 id="fifthCard"></h1>
-    <h1 id="sixthCard"></h1>
-    <p id="secondOpponentMoney"></p>
-    <br>
-    <h1 id="seventhCard"></h1>
-    <h1 id="eighthCard"></h1>
-    <p id="thirdOpponentMoney"></p>
-    <br>
-    <p id="flop1Card"></p>
-    <p id="flop2Card"></p>
-    <p id="flop3Card"></p>
-    <p id="turnCard"></p>
-    <p id="riverCard"></p>
-    <button>Call</button>
-    <button>Raise</button>
-    <button>Fold</button>
+    <div>
+        <div>
+            <h1>Pot:</h1>
+            <h2 id="pot">0</h2>
+        </div>
+        <div style="float:right;">
+            <h1 id="firstCard"></h1>
+            <h1 id="secondCard"></h1>
+            <p id ="myMoney"></p>
+        </div>
+        
+        <div >
+            <h1 id="thirdCard"></h1>
+            <h1 id="fourthCard"></h1>
+            <p id="firstOpponentMoney"></p>
+        </div>
+
+        <div >
+            <h1 id="fifthCard"></h1>
+            <h1 id="sixthCard"></h1>
+            <p id="secondOpponentMoney"></p>
+        </div>
+
+        <div style="float:left; ">
+            <h1 id="seventhCard"></h1>
+            <h1 id="eighthCard"></h1>
+            <p id="thirdOpponentMoney"></p>
+        </div>
+    </div>
+    
+    <div style="margin-left: 400px;margin-top:40px;font-size: 50px;">
+        <p id="flop1Card" style="display:inline;margin-right:20px"></p>
+        <p id="flop2Card" style="display:inline;margin-right:20px"></p>
+        <p id="flop3Card" style="display:inline;margin-right:20px"></p>
+        <p id="turnCard" style="display:inline;margin-right:20px"></p>
+        <p id="riverCard" style="display:inline;margin-right:20px"></p>
+    </div>
+    
+    
+    <div style="margin-left: 450px;margin-top: 50px">
+        <button style="margin-right: 80px;">Call</button>
+        <button style="margin-right: 80px;">Raise</button>
+        <button onclick="fold_command()">Fold</button>
+    </div>
+    
     <p id="gameOver" style="font-size: 43px; text-align: center; display: none; ">game Over</p>
 
     <script src="app.js"></script>
